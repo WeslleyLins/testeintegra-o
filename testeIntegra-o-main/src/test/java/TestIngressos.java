@@ -19,8 +19,6 @@ public class TestIngressos {
 
 
 
-
-
     @Test
     public void VerificarAareaDoCliente(){
 

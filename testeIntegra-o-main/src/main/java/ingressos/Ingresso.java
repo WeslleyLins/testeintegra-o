@@ -19,8 +19,6 @@ public class Ingresso {
     public String getMaiorIdade() {
         return maiorIdade;
     }
-    public String getCorPulseira() {return pegarIngresso;
-    }
     public String getAreaConsumidor() { return areaConsumidor;
     }
 
@@ -47,7 +45,7 @@ public class Ingresso {
         }
     }
 
-    public String pegarPulseira(Consumidor consumidor){
+    public String getPegarIngresso(Consumidor consumidor){
         if (verificarCompra(consumidor) == true && verIdade(consumidor) =="É de maior"){
             this.pegarIngresso = "Pegar ingresso";
             return "Pegar ingresso";
